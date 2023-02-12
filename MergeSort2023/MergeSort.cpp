@@ -37,16 +37,3 @@ void CMergeSort::merge_sort(vector<int>& xs) {
 		unit *= 2;
 	}
 }
-
-
-int CMergeSort::MinFromTwoValues(int a, int b)
-{
-	if (a > b)
-	{
-		return b;
-	}
-	else
-	{
-		return a;
-	}
-}

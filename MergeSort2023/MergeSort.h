@@ -7,8 +7,6 @@ using namespace std;
 
 class CMergeSort
 {
-private:
-	int MinFromTwoValues(int a, int b);
 public:
 	CMergeSort()
 	{
